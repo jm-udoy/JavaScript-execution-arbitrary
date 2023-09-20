@@ -44,3 +44,11 @@ const fruits2 = new Map([
 ]);
 
 document.getElementById("map").innerHTML = fruits2.get("apples");
+
+
+// JS Error
+try{
+  alerttt("Welcom Guest!");
+}catch(err){
+  document.getElementById("err").innerHTML = err.message;
+}
