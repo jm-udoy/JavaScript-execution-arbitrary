@@ -1,0 +1,54 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Classless CSS  -->
+    <link rel="stylesheet" href="https://classless.de/classless.css">
+    
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="head1" style="color:brown"></h1>
+    <hr>
+
+    <button onclick="document.getElementById('myImage').src='https://picsum.photos/id/63/200/300'">Image 01</button>
+
+    <img id="myImage" src="https://picsum.photos/id/63/200/300" style="width:100px">
+
+    <button onclick="document.getElementById('myImage').src='https://picsum.photos/id/123/200/300'">Image 02</button>
+
+    <hr>
+    <h1 id="head2">Heading 01</h1>
+    <button onclick="headingChange()">Click To Change</button>
+
+    <hr>
+    <div>Using document.write()</div> <br>
+
+    <script>document.write(5 + 5 + 5);</script>
+
+    <hr>
+    <div>Using window.alert()</div>
+
+    <script>
+        // window.alert("WARNING!!!");
+    </script>
+    <p style="font-style: italic;">You can skip the window keyword.</p>
+
+    <!-- loop 01  -->
+    <hr>
+    <div id="loop"></div>
+    
+    <!-- loop 02  -->
+    <hr>
+    <div id="loop2"></div>
+
+
+
+    <!-- Main script file linking  -->
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
