@@ -28,3 +28,8 @@ for (let i = 0; i < fLen; i++) {
 text += "</ul>";
 document.getElementById("loop2").innerHTML = text;
 
+
+
+
+// JS Math
+document.getElementById("math").innerHTML = Math.PI;
