@@ -33,3 +33,14 @@ document.getElementById("loop2").innerHTML = text;
 
 // JS Math
 document.getElementById("math").innerHTML = Math.PI;
+
+
+// Using Map.get()
+// Create a Map
+const fruits2 = new Map([
+  ["apples", 500],
+  ["bananas", 300],
+  ["oranges", 200]
+]);
+
+document.getElementById("map").innerHTML = fruits2.get("apples");
